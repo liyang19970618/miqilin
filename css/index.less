@@ -1,0 +1,47 @@
+.nav li a{
+    margin: 0;
+    padding: 45px 0px 15px 0px;
+    color: #fff;
+    position: relative;
+    font-size: 14px;
+}
+.nav li a span{
+    transition: all 0.5s;
+    width: 0px;
+    height: 2px;
+    background-color: #D4D4D4;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+.nav li{
+    padding: 0px 15px;
+}
+.nav .active{
+    color: #e75b1e;
+}
+.nav .active{
+    border-bottom: 2px solid  #e75b1e;
+}
+@media (max-width: 768px){
+.nav li a {
+   padding: 15px 0px;
+}
+.navbar-brand>img{
+    max-width:180px;
+}
+}
+@media (max-width: 1200px){
+.nav li{
+    padding: 0px 6px;
+}
+}
+.nav li:hover a{
+    background: transparent;
+}
+.bte{
+    display: block;
+    width: 219px;
+    height: 59px;
+    background: #e75b1e;
+}
